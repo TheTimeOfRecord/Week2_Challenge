@@ -16,7 +16,11 @@ public class InputRebinder : MonoBehaviour
     [ContextMenu("Rebind Space To Escape")]
     public void RebindSpaceToEscape()
     {
-
+        spaceAction.PerformInteractiveRebinding().WithTargetBinding(0).
+            OnMatchWaitForAnother(1f).OnComplete(operation =>
+            {
+                spaceAction.ApplyBindingOverride(0, "<Keyboard>/escape");
+            });
     }
 
 
