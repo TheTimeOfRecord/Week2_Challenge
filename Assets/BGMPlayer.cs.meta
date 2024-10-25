@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6d4f83d51177b264181a40b8dfc2bc6f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bgmSource: {instanceID: 0}
+  - bgmClip: {fileID: 8300000, guid: 0c27d18b5b6bdbf42a81025a903508f5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
